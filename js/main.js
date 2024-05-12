@@ -331,6 +331,7 @@ Version:	1.1
 })(jQuery);
 
 document.getElementsByClassName('find-btn')[0].addEventListener("click",()=>{
+	document.getElementsByTagName('html')[0].style.scrollBehavior = "smooth";
 	window.scrollTo(0,2300);
 	console.log("hello")
 })
