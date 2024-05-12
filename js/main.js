@@ -332,6 +332,6 @@ Version:	1.1
 
 document.getElementsByClassName('find-btn')[0].addEventListener("click",()=>{
 	document.getElementsByTagName('html')[0].style.scrollBehavior = "smooth";
-	window.scrollTo(0,2300);
+	window.scrollTo(0,2100);
 	console.log("hello")
 })
